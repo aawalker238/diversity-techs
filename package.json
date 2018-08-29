@@ -1,0 +1,26 @@
+{
+  "name": "diversity-techs",
+  "version": "1.0.0",
+  "description": "Connecting talented people who are underrepresented in the tech world with people of similar backgrounds and new opportunities ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "diversity",
+    "tech"
+  ],
+  "author": "Anthony A. Walker",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.10",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.7.0"
+  }
+}
